@@ -1,0 +1,12 @@
+{
+  "name": "Adding Steam collections and sub-collections together",
+  "version": "0.001",
+  "description": "Title says it!",
+  "manifest_version": 2,
+  "browser_action": {},
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": ["https://steamcommunity.com/", "tabs"]
+}
